@@ -56,6 +56,7 @@
 
 
 /* section-1 */
+
 .sec1{
     display: flex;
     background-color:#F9CAC2;
@@ -106,7 +107,13 @@
 }
 .card{
     margin: 0px 50px;
+    transition: all 1s;
 }
+.card:hover{
+     background-color:#F9CAC2;
+     border-radius: 40px;
+     cursor: pointer;
+    }
 .lines{
     display:flex;
     align-items: center;
@@ -145,6 +152,12 @@
    width:550px;
    margin:100px;
    margin-bottom: 0px;
+   border-radius: 50px;
+   transition:all 1s;
+}
+.image:hover{
+    height: 520px;
+    width: 570px;
 }
 .insert h1, .insert p, .btn{
     margin:15px;
