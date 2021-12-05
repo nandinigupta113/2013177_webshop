@@ -15,7 +15,7 @@
 }
 .navbar, .nav__links{
     display: flex;
-    justify-content:center;
+    justify-content:space-between;
     align-items: center;
 }
 .logo{
@@ -71,6 +71,7 @@
 }
 .sec1 img{
     height:600px;
+    margin-left: 0px;
 }
 .sec1 p{
     font-size: 24px;
@@ -156,4 +157,35 @@
     height: 40px;
     padding:5px;
 }
-
+/* section-4 */
+.sec4 img{ 
+    width: 900px;
+    height: 700px;
+}
+.sec4{
+    display: flex;
+    margin-top: 200px;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #EAFAFA;
+}
+.sec4 h1{
+    font-size:80px;
+}
+.sec4 p{
+    font-size: 36px;
+    font-style: bold;
+    text-align: end;
+    margin-top:30px;
+    margin-right: 100px;
+}
+.sec4 button{
+    font-size: 14px;
+    color:white;
+    background-color: black;
+    width:250px;
+    height: 40px;
+    padding:5px;
+    margin:25px;
+    margin-left: 280px;
+}
