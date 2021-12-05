@@ -103,7 +103,57 @@
 .sec2{
     margin: 100px 200px;
 }
-.card img{
+.card{
+    margin: 0px 50px;
+}
+.lines{
+    display:flex;
     align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    text-align:center;
+}
+.card img{
+    margin: 0px 40px;
+}
+.card p{
+    size:18px;
+    text-align:center;
+}
+#left{
+    display:flex;
+}
+.first_card{
+    margin:0px;
+    padding:0px;
+}
+/* secttion-3 */
+#head2{
+    font-size:32px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.insert{
+    display:flex;
+    justify-content:space-between;
+}
+.image{
+   height:500px;
+   width:550px;
+   margin:100px;
+   margin-bottom: 0px;
+}
+.insert h1, .insert p, .btn{
+    margin:15px;
+    margin-left: 100px;
+}
+.btn{
+    color:white;
+    background-color: black;
+    width:150px;
+    height: 40px;
+    padding:5px;
 }
 
