@@ -287,11 +287,13 @@ input[type="checkbox"]{
 }
 /* section-6 */
 .sec6{
+    background-color:#F9CAC2 ;
+}
+.inside_sec6{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding:80px;
-    background-color:#F9CAC2 ;
 }
 #footer{
     display:flex;
@@ -307,3 +309,20 @@ input[type="checkbox"]{
 #customer_count{
     font-size: 72px;
 }
+
+.inside2_sec6{
+    display:flex;
+    justify-content: space-between;
+}
+.inside2_sec6 p{
+   margin: 40px 80px;
+   margin-bottom: 40px;
+}
+.inside2_sec6 div{
+    margin:50px;
+}
+.inside2_sec6 div a{
+    margin:40px;
+
+}
+
