@@ -111,11 +111,6 @@ input[type="checkbox"]{
    }
 
 }
-
-
-
-
-
 /* section-1 */
 
 .sec1{
@@ -234,7 +229,7 @@ input[type="checkbox"]{
 /* section-4 */
 .sec4 img{ 
     width: 900px;
-    height: 700px;
+    height: 600px;
 }
 .sec4{
     display: flex;
@@ -271,10 +266,11 @@ input[type="checkbox"]{
     justify-content: center;
     align-items: center;
     background-color:#FBFFD4 ;
+    height: 500px;
 }
 .sec5 h1{
     font-size: 36px;
-    margin: 100px 70px;
+    margin: 10px 70px;
     margin-bottom: 0px;
 }
 .sec5 div img{
@@ -288,4 +284,26 @@ input[type="checkbox"]{
     width:784px;
     margin-top: 10px;
     text-align: center;
+}
+/* section-6 */
+.sec6{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:80px;
+    background-color:#F9CAC2 ;
+}
+#footer{
+    display:flex;
+}
+#footer h2{
+    margin:30px;
+}
+#count{
+    color:white;
+    font-size: 125px;
+    text-align: end;
+}
+#customer_count{
+    font-size: 72px;
 }
