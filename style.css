@@ -53,6 +53,67 @@
 .box hr{
     line-height: 200px;
 }
+nav .bar{
+    position: relative;
+    margin:auto;
+}
+nav .bar span{
+    position: absolute;
+    color: #fff;
+    font-size: 35px;
+}
+input[type="checkbox"]{
+    -webkit-appearance: none;
+    display:none;
+}
+@media screen and (max-width:1250px){
+   header{
+       display:block;
+   }
+   header .logo{
+       display:inline-block;
+       padding:5px 30px;
+   }
+   header .box{
+    width:100%;
+    display:inline-flex;
+    justify-content: center;
+    margin-bottom:15px;
+   }
+   header .box input{
+       width:100%;
+   }
+   .navbar{
+       display:flex;
+       justify-content: center;
+       flex-direction: column;
+       margin: 25px 175px;
+       background:rgb(150, 141, 141);
+       height: 100%;
+       width:100%;
+       position:absolute;
+       background-position: cover;
+       background-size: cover; 
+   }
+   .box{
+       border:2px solid rgb(2, 2, 2);
+   }
+   .nav__links{
+       display: flex;
+       flex-direction: column;
+       margin: 5px;
+   }
+    .User{
+       margin: 2px 20px;
+   }
+   .sec1{
+       margin-top:400px;
+   }
+
+}
+
+
+
 
 
 /* section-1 */
@@ -60,9 +121,9 @@
 .sec1{
     display: flex;
     background-color:#F9CAC2;
-    width: 100%;
     justify-content: space-between;
     align-items: center;
+
 }
 .sec1 h1{
     font-size:80px;
@@ -201,4 +262,30 @@
     padding:5px;
     margin:25px;
     margin-left: 280px;
+}
+/* section-5 */
+.sec5{
+    display: flex;
+    flex-direction: column;
+    margin: 150px;
+    justify-content: center;
+    align-items: center;
+    background-color:#FBFFD4 ;
+}
+.sec5 h1{
+    font-size: 36px;
+    margin: 100px 70px;
+    margin-bottom: 0px;
+}
+.sec5 div img{
+   justify-content:center;
+   margin:10px;
+   margin: 20px 20rem;
+
+}
+.sec5 p{
+    font-size: 24px;
+    width:784px;
+    margin-top: 10px;
+    text-align: center;
 }
